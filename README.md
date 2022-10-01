@@ -1,76 +1,38 @@
-<p align="center">
-<img src="https://i.imgur.com/x8rtGr4.gif" alt="3D Game Shaders For Beginners" title="3D Game Shaders For Beginners">
-</p>
+# Memory Game
+A retro grid-based game in vanilla JavaScript, HTML and CSS
 
-# 3D Game Shaders For Beginners
+View the full walkthrough [here](https://www.youtube.com/channel/UC5DNytAJ6_FISueUfzZCVsw) 
 
-Interested in adding
-textures,
-lighting,
-shadows,
-normal maps,
-glowing objects,
-ambient occlusion,
-reflections,
-refractions,
-and more to your 3D game?
-Great!
-Below is a collection of shading techniques that will take your game visuals to new heights.
-I've explained each technique in such a way that you can take what you learn here and apply/port it to
-whatever stack you use—be it Godot, Unity, Unreal, or something else.
-For the glue in between the shaders,
-I've chosen the fabulous Panda3D game engine and the OpenGL Shading Language (GLSL).
-So if that is your stack, then you'll also get the benefit of learning how to use these
-shading techniques with Panda3D and OpenGL specifically.
+Memory Game, also known as the Concentration card game or Matching Game, is a simple card game where you need to match pairs by turn over 2 cards at a time. There are so many versions of it it is hard to in down it's exact origin. There are claims that the famuos writer of Huckleberry Finn, Mark Twain invented his own version. I googled it and whatever it is, it looks more like a way of trying to figure out how much tax you owe rather than match cards.
 
-## Table Of Contents
+In this repo, I will be putting extra focus on setting Attributes in JavaScript. If you want to learn how to use setAttritube and getAttribute effectively, please have a look at my code.
 
-- [Setup](sections/setup.md)
-- [Building The Demo](sections/building-the-demo.md)
-- [Running The Demo](sections/running-the-demo.md)
-- [Reference Frames](sections/reference-frames.md)
-- [GLSL](sections/glsl.md)
-- [Render To Texture](sections/render-to-texture.md)
-- [Texturing](sections/texturing.md)
-- [Lighting](sections/lighting.md)
-- [Blinn-Phong](sections/blinn-phong.md)
-- [Fresnel Factor](sections/fresnel-factor.md)
-- [Rim Lighting](sections/rim-lighting.md)
-- [Cel Shading](sections/cel-shading.md)
-- [Normal Mapping](sections/normal-mapping.md)
-- [Deferred Rendering](sections/deferred-rendering.md)
-- [Fog](sections/fog.md)
-- [Blur](sections/blur.md)
-- [Bloom](sections/bloom.md)
-- [SSAO](sections/ssao.md)
-- [Motion Blur](sections/motion-blur.md)
-- [Chromatic Aberration](sections/chromatic-aberration.md)
-- [Screen Space Reflection](sections/screen-space-reflection.md)
-- [Screen Space Refraction](sections/screen-space-refraction.md)
-- [Foam](sections/foam.md)
-- [Flow Mapping](sections/flow-mapping.md)
-- [Outlining](sections/outlining.md)
-- [Depth Of Field](sections/depth-of-field.md)
-- [Posterization](sections/posterization.md)
-- [Pixelization](sections/pixelization.md)
-- [Sharpen](sections/sharpen.md)
-- [Dilation](sections/dilation.md)
-- [Film Grain](sections/film-grain.md)
-- [Lookup Table (LUT)](sections/lookup-table.md)
-- [Gamma Correction](sections/gamma-correction.md)
+I have kept the styling at a bare miniumum for you to go wild and make it your own. Please tag me as I would LOVE to see your game!!!
 
-## License
+## What inbuilt functions are we going to focus on?
+- for loops
+- addEventListener
+- setAttribute
+- getAttribute
+- data-name
+- document.querySelector
+- createElement
 
-The included license applies only to the software portion of 3D Game Shaders For Beginners—
-specifically the `.cxx`, `.vert`, and `.frag` source code files.
-No other portion of 3D Game Shaders For Beginners has been licensed for use.
+## Rules of Memory Game
+- You will start by flipping over one card
+- If the next card you flip matches, a pop up alert notifies you and you get +1 to your score
+- These cards then disspear
+- If the next card you flip does not match, a pop up alert notifies you of ths and the cards flip back
+- The game continues until you match all the cards on the board
 
-## Attributions
+### MIT Licence
 
-- [Kiwi Soda Font](https://fontenddev.com/fonts/kiwi-soda/)
+Copyright (c) 2020 Ania Kubow
 
-## Copyright
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-(C) 2019 David Lettier
-<br>
-[lettier.com](https://www.lettier.com)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*Translation: Ofcourse you can use this for you project! Just make sure to say where you got this from :)
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
